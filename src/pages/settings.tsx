@@ -4,7 +4,7 @@ import Header from "@components/header/header";
 
 const Settings = () => {
 
-  document.title = 'Settings';
+  document.title = 'User Settings';
 
   return (
     <div>

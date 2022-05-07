@@ -1,0 +1,32 @@
+.da-container, .sc-container, .sr-container {
+  background-color: #fbeceb;
+  height: 280px;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.container-title i {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: default;
+}
+
+.da-container {
+  margin-top: 21px;
+  width: 1220px;
+}
+
+.bottom-container {
+  margin-top: 21px;
+}
+
+.sc-container {
+  width: 720px;
+  display: inline-block;
+}
+
+.sr-container {
+  width: 479px;
+  margin-left: 21px;
+  display: inline-block;
+}

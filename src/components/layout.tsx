@@ -12,10 +12,10 @@ const StyledMain = styled.main`
 const Layout: React.FC<{}> = ({ children }) => {
 
   const documentTitle = document.title;
-  let documentSubTitle = "Home > " + documentTitle;
+  let documentSubTitle = "🏠 / " + documentTitle;
 
   if (documentTitle == "Home") {
-    documentSubTitle = "Home > ";
+    documentSubTitle = "🏠 / ";
   }
 
   return (

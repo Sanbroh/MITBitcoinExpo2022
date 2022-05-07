@@ -6,7 +6,7 @@ import Header from "@components/header/header";
 
 const Home = () => {
 
-  document.title = 'Home';
+  document.title = 'Homepage';
 
   return (
     <div>

@@ -4,7 +4,7 @@ import Header from "@components/header/header";
 
 const Ledger = () => {
 
-  document.title = 'Ledger';
+  document.title = 'Ledger Details';
 
   return (
     <div>
