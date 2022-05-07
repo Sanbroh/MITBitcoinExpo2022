@@ -2,7 +2,7 @@
   background-color: #fbeceb;
   height: 280px;
   border-radius: 16px;
-  padding: 16px;
+  padding: 16px 24px;
 }
 
 .container-title i {
@@ -13,20 +13,25 @@
 
 .da-container {
   margin-top: 21px;
-  width: 1220px;
+  width: 75vw;
+}
+
+.inner-wrapper {
+  margin-top: 3vh;
+  display: inline-block;
 }
 
 .bottom-container {
-  margin-top: 21px;
+  margin-top: 3vh;
 }
 
 .sc-container {
-  width: 720px;
+  width: 49vw;
   display: inline-block;
 }
 
 .sr-container {
-  width: 479px;
-  margin-left: 21px;
+  width: 24vw;
+  margin-left: 2vw;
   display: inline-block;
 }
