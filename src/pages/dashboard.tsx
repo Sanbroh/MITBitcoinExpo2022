@@ -23,6 +23,7 @@ const Dashboard = () => {
               <DataCounter marginR={20} title="Suppliers" count={10} countColor="blue" countUnit="TOTAL" newCount={0} />
               <DataCounter marginR={20} title="Weakpoints" count={2} countColor="red" countUnit="PREDICTED" newCount={0} />
               <DataCounter marginR={20} title="Transactions" count={28} countColor="orange" countUnit="COMPLETED" newCount={2} />
+              <div style={{ height: 120, width: 2, backgroundColor: "lightgray", display: "inline-block", marginLeft: 16, marginRight: 16 }}></div>
             </div>
           </div>
         </div>

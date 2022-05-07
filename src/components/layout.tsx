@@ -19,7 +19,7 @@ const Layout: React.FC<{}> = ({ children }) => {
   }
 
   return (
-    <div style={{ marginLeft: 280 }}>
+    <div style={{ marginLeft: "17.5vw" }}>
       <StyledContainer>
         <p style={{ fontSize: 28, fontWeight: "bold", marginTop: -20, cursor: "default" }}>{documentTitle}</p>
         <p style={{ fontSize: 16, fontWeight: "light", marginTop: -4, cursor: "default" }}>{documentSubTitle}</p>
