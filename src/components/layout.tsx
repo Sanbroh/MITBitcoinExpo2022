@@ -1,9 +1,7 @@
 import * as React from "react";
 import styled from "@emotion/styled";
 import tw from "twin.macro";
-
-import Footer from "@components/footer";
-import Header from "@components/header";
+import Docs from "@components/docs";
 
 const StyledBody = tw.body`flex flex-col bg-white`;
 const StyledContainer = tw.div`flex flex-col p-4 md:p-12`;
@@ -12,15 +10,21 @@ const StyledMain = styled.main`
 `;
 
 const Layout: React.FC<{}> = ({ children }) => {
+
+  const documentTitle = document.title;
+  let documentSubTitle = "Home > " + documentTitle;
+
+  if (documentTitle == "Home") {
+    documentSubTitle = "Home > ";
+  }
+
   return (
-    <div>
-      <StyledBody>
-        <StyledContainer>
-          <Header />
-          <StyledMain>{children}</StyledMain>
-          <Footer />
-        </StyledContainer>
-      </StyledBody>
+    <div style={{ marginLeft: 280 }}>
+      <StyledContainer>
+        <p style={{ fontSize: 28, fontWeight: "bold", marginTop: -20, cursor: "default" }}>{documentTitle}</p>
+        <p style={{ fontSize: 16, fontWeight: "light", marginTop: -4, cursor: "default" }}>{documentSubTitle}</p>
+        <StyledMain>{children}</StyledMain>
+      </StyledContainer>
     </div>
   );
 };
