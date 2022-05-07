@@ -14,8 +14,14 @@ const Layout: React.FC<{}> = ({ children }) => {
   const documentTitle = document.title;
   let documentSubTitle = "🏠 / " + documentTitle;
 
-  if (documentTitle == "Home") {
+  if (documentTitle === "Home") {
     documentSubTitle = "🏠 / ";
+  } else if (documentTitle === "Supplier Details") {
+    documentSubTitle = "🏠 / Main Dashboard / Supplier Details";
+  } else if (documentTitle === "Supplychain Details") {
+    documentSubTitle = "🏠 / Main Dashboard / Supplychain Details";
+  } else if (documentTitle === "Data Analytics") {
+    documentSubTitle = "🏠 / Main Dashboard / Data Analytics";
   }
 
   return (

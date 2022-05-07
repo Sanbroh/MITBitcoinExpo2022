@@ -17,7 +17,7 @@
 }
 
 .inner-wrapper {
-  margin-top: 3vh;
+  margin-top: 12px;
   display: inline-block;
 }
 
@@ -34,4 +34,22 @@
   width: 24vw;
   margin-left: 2vw;
   display: inline-block;
+}
+
+.detail-button {
+  margin-top: 16px;
+  background-color: #feb249;
+  padding: 4px 16px;
+  display: block;
+  border-radius: 4px;
+  width: 122px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  transition: 0.5s;
+}
+
+.detail-button:hover {
+  transition: 0.5s;
+  filter: brightness(1.1);
 }
