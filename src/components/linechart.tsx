@@ -1,15 +1,30 @@
-import React, { useState, FC, InputHTMLAttributes } from "react";
+import React from 'react';
+import { JSCharting } from 'jscharting-react';
 
-interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
-  marginR: number;
-}
-
-const LineChart: React.FC<InputProps> = ({ marginR }) => {
-  return (
-    <div>
-
-    </div>
-  );
+const config = {
+    type: 'vertical column',
+    series: [
+        {
+            points: [
+                { x: 'Suppliers', y: 10 },
+                { x: 'Weakpoints', y: 2 },
+                { x: 'Transactions', y: 28 }
+            ]
+        }
+    ]
 };
 
-export default LineChart;
+const divStyle = {
+    width: 420,
+    height: 160,
+    marginTop: -30,
+    paddingTop: 30,
+};
+
+export default class LineChart extends React.Component {
+    render() {
+        return (
+            <div style={divStyle}><JSCharting options={config} /></div>
+        );
+    }
+}

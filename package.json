@@ -65,5 +65,8 @@
     "twin": {
       "preset": "emotion"
     }
+  },
+  "devDependencies": {
+    "jscharting-react": "^1.4.1"
   }
 }

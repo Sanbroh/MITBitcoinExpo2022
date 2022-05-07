@@ -21,12 +21,16 @@ const Dashboard = () => {
         <div className="top-container">
           <div className="da-container">
             <h1 className="container-title"><i>Data Analytics</i></h1>
-            <div className="inner-wrapper">
-              <DataCounter marginR={20} title="Suppliers" count={10} countColor="blue" countUnit="TOTAL" newCount={0} />
-              <DataCounter marginR={20} title="Weakpoints" count={2} countColor="red" countUnit="PREDICTED" newCount={0} />
-              <DataCounter marginR={20} title="Transactions" count={28} countColor="orange" countUnit="COMPLETED" newCount={2} />
-              <div style={{ height: 120, width: 2, backgroundColor: "lightgray", display: "inline-block", marginLeft: 16, marginRight: 16 }}></div>
-              
+            <div className="inner-wrapper" style={{ lineHeight: "auto" }}>
+              <div style={{ display: "inline-block" }}>
+                <DataCounter marginR={20} title="Suppliers" count={10} countColor="blue" countUnit="TOTAL" newCount={0} />
+                <DataCounter marginR={20} title="Weakpoints" count={2} countColor="red" countUnit="PREDICTED" newCount={0} />
+                <DataCounter marginR={20} title="Transactions" count={28} countColor="orange" countUnit="COMPLETED" newCount={2} />
+              </div>
+              <div style={{ height: 120, width: 2, backgroundColor: "lightgray", display: "inline-block", marginLeft: 16, marginRight: 34 }}></div>
+              <div style={{ display: "inline-block", backgroundColor: "white" }}>
+                <LineChart />
+              </div>
             </div>
             <Link to="/dashboard/analytics" className="detail-button">More Details</Link>
           </div>

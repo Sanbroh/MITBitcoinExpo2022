@@ -7559,6 +7559,18 @@
     "argparse" "^1.0.7"
     "esprima" "^4.0.0"
 
+"jscharting-react@^1.4.1":
+  "integrity" "sha512-y9RPHKzU+4BsKpZnG9T6DfgFCr22Mji6GtXwgnYcbx1XG2R6UyUnogvnnE2IGZnl6DZQ46ziEGPSUCzu5A5pvQ=="
+  "resolved" "https://registry.npmjs.org/jscharting-react/-/jscharting-react-1.4.1.tgz"
+  "version" "1.4.1"
+  dependencies:
+    "jscharting" "^3.3.1"
+
+"jscharting@^3.3.1":
+  "integrity" "sha512-PB/9YzAiQd/o5NOmAAvuV2YLozjuuSl9B2Ec592Zjlnd506vTI/FEKwEZpN1ApVupdipMtWJA1qhitwF7NGsnw=="
+  "resolved" "https://registry.npmjs.org/jscharting/-/jscharting-3.3.1.tgz"
+  "version" "3.3.1"
+
 "jsdom@^16.4.0":
   "integrity" "sha512-u9Smc2G1USStM+s/x1ru5Sxrl6mPYCbByG1U/hUmqaVsm4tbNyS7CicOSRyuGQYZhTu0h84qkZZQ/I+dzizSVw=="
   "resolved" "https://registry.npmjs.org/jsdom/-/jsdom-16.7.0.tgz"

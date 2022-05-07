@@ -1,0 +1,37 @@
+.grid {
+  display: grid;
+  column-gap: 2vw;
+  height: 77vh;
+  grid-template-columns: 45vw 28vw;
+}
+
+.gridbox {
+  background-color: #fbeceb;
+  border-radius: 16px;
+  cursor: default;
+}
+
+.stats-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 2vh;
+}
+
+.chart-title {
+  font-size: 14px;
+  text-align: center;
+}
+
+.right {
+  padding: 3vh 0;
+}
+
+.stats-table {
+  margin-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  height: 25vh;
+  width: 21.5vw;
+}
