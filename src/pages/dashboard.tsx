@@ -7,6 +7,8 @@ import Header from "@components/header/header";
 import Billboard from "@components/billboard";
 import DataCounter from "@components/datacounter";
 import LineChart from "@components/linechart";
+import DataTableDashboard from "@components/datatabledashboard";
+import DataTableSC from "@components/datatablesc";
 
 import "./dashboard.css";
 
@@ -37,11 +39,13 @@ const Dashboard = () => {
         </div>
         <div className="bottom-container">
           <div className="sc-container">
-            <h1 className="container-title"><i>Supplychain Details</i></h1>
+            <h1 className="container-title" style={{ marginBottom: 12 }}><i>Supplychain Details</i></h1>
+            <DataTableSC />
             <Link to="/dashboard/supplychains" className="detail-button">More Details</Link>
           </div>
           <div className="sr-container">
-            <h1 className="container-title"><i>Supplier Details</i></h1>
+            <h1 className="container-title" style={{ marginBottom: 12 }}><i>Supplier Details</i></h1>
+            <DataTableDashboard />
             <Link to="/dashboard/suppliers" className="detail-button">More Details</Link>
           </div>
         </div>

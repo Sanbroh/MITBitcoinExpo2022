@@ -3,25 +3,24 @@ import { JSCGrid } from 'jscharting-react';
 
 const config = {
       data: [
-          ['Supplies Received (t)', 340, "+40"],
-          ['Failed Deliveries (t)', 220, "+20"],
-          ['Net Transactions ($B)', 3.23, "+0.04"],
-          ['Ledger Height', 22, "+2"],
-          ['Current Chain', "Supplycoin", "100c"],
+          ['Supplier Count', 10],
+          ['Average Score', 79.23],
+          ['Average Time', 4.22],
+          ['Average Cost', 4.29]
       ],
       columns: [
           { header: 'Type' },
           { header: 'Value' },
-          { header: 'Change (Monthly)' },
       ]
 };
 
 const divStyle = {
     marginLeft: "auto",
-    marginRight: "auto"
+    marginRight: "auto",
+    backgroundColor: "white"
 };
 
-export default class DataTableLedger extends React.Component {
+export default class DataTableDashboard extends React.Component {
     render() {
         return (
             <div style={divStyle}><JSCGrid options={config} /></div>

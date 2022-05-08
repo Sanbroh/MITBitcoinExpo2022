@@ -35,3 +35,27 @@
   height: 25vh;
   width: 21.5vw;
 }
+
+.curr-ledger, .hist-ledger {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-top: 3vh;
+  margin-bottom: 2px;
+}
+
+.more-button {
+  background-color: #feb249;
+  margin-top: 16px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 4px 16px;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: black;
+  width: 64px;
+  cursor: pointer;
+}
